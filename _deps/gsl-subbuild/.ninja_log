@@ -1,0 +1,21 @@
+# ninja log v7
+5	139	7792558714530894	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-mkdir	9133522e6608fdbe
+5	139	7792558714530894	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-mkdir	9133522e6608fdbe
+147	1506	7792558728210920	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-download	ad906ac0c6dc8a85
+147	1506	7792558728210920	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-download	ad906ac0c6dc8a85
+1507	1620	7792558729339273	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-update	dc004f99ed1bd6e3
+1507	1620	7792558729339273	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-update	dc004f99ed1bd6e3
+1621	1742	7792558730552774	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-patch	2a12444fda77e2c4
+1621	1742	7792558730552774	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-patch	2a12444fda77e2c4
+1743	1872	7792558731856559	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-configure	f9a73525eb1000c1
+1743	1872	7792558731856559	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-configure	f9a73525eb1000c1
+1872	1995	7792558733095411	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-build	8492ca3ed33ad891
+1872	1995	7792558733095411	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-build	8492ca3ed33ad891
+1995	2137	7792558734462911	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-install	135c7b5b529c82d4
+1995	2137	7792558734462911	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-install	135c7b5b529c82d4
+2138	2262	7792558735741138	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-test	3a8eb4565922e28b
+2138	2262	7792558735741138	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-test	3a8eb4565922e28b
+2262	2442	7792558737562189	CMakeFiles/gsl-populate-complete	26ec0a5d53c98f08
+2262	2442	7792558737562189	gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-done	26ec0a5d53c98f08
+2262	2442	7792558737562189	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/CMakeFiles/gsl-populate-complete	26ec0a5d53c98f08
+2262	2442	7792558737562189	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/gsl-populate-stamp/gsl-populate-done	26ec0a5d53c98f08

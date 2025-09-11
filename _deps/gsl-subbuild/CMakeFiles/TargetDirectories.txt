@@ -1,0 +1,3 @@
+C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/CMakeFiles/gsl-populate.dir
+C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/CMakeFiles/rebuild_cache.dir

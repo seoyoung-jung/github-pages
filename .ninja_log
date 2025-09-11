@@ -1,0 +1,21 @@
+# ninja log v7
+47	394	7792558818869150	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/stb_implementation.cpp	e00988d1a72732eb
+195	2215	7792558820345357	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp.o	b236e411e77ba677
+147	4510	7792558819872210	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_tables.cpp.o	b79745f3f777f74f
+221	4632	7792558820613388	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp.o	5ad40abf6e431770
+396	4715	7792558822376289	CMakeFiles/the_stb.dir/stb_implementation.cpp.o	7d8b31e0cde30703
+124	5489	7792558819641259	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_draw.cpp.o	2e4b364977181ba2
+4723	6833	7792558865677457	libthe_stb.a	93a982ccd3558e2f
+5490	6929	7792558873347282	source/CMakeFiles/cs200_fun.dir/Engine/Vec2.cpp.o	802efd975a51b5e5
+169	7128	7792558820088165	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_widgets.cpp.o	9ec8eb316e40d3eb
+66	7474	7792558819060045	CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui.cpp.o	c74585ae78974015
+7476	8338	7792558893150818	libthe_imgui.a	d0f5609a702df229
+4664	16188	7792558865298954	source/CMakeFiles/cs200_fun.dir/Engine/Path.cpp.o	cbe9111bcd0d56c5
+254	16215	7792558820940816	source/CMakeFiles/cs200_fun.dir/CS200/ImGuiHelper.cpp.o	f40fdef1826f059c
+4519	16547	7792558863589532	source/CMakeFiles/cs200_fun.dir/Engine/Logger.cpp.o	7ac9db4ee25e74f7
+328	16929	7792558821676561	source/CMakeFiles/cs200_fun.dir/Engine/Engine.cpp.o	e6c7e85e8852617b
+2219	17123	7792558840588309	source/CMakeFiles/cs200_fun.dir/Engine/Input.cpp.o	4d4a8bca3dcb68ef
+6834	17131	7792558886802973	source/CMakeFiles/cs200_fun.dir/Engine/Window.cpp.o	c7c51010b42c12c5
+283	17231	7792558821232469	source/CMakeFiles/cs200_fun.dir/CS200/RenderingAPI.cpp.o	460970ec948bec90
+6930	18496	7792558887691573	source/CMakeFiles/cs200_fun.dir/main.cpp.o	c169697797da0922
+18498	26154	7792559003384000	cs200_fun.html	8d065d77ce5ec42f

@@ -1,0 +1,21 @@
+# ninja log v7
+4	135	7792558646880172	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-mkdir	5174c738def83ca3
+4	135	7792558646880172	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-mkdir	5174c738def83ca3
+135	4986	7792558695381797	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-download	ca01ddd1b158eba
+135	4986	7792558695381797	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-download	ca01ddd1b158eba
+4986	5307	7792558695473587	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-update	dd1bbfb0cdb31c18
+4986	5307	7792558695473587	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-update	dd1bbfb0cdb31c18
+5307	5418	7792558699715407	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-patch	a79b85cfa5dbd372
+5307	5418	7792558699715407	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-patch	a79b85cfa5dbd372
+5419	5520	7792558700726766	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-configure	548f13a8f528be54
+5419	5520	7792558700726766	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-configure	548f13a8f528be54
+5520	5652	7792558702042111	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-build	26fe0fc74dd200e4
+5520	5652	7792558702042111	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-build	26fe0fc74dd200e4
+5652	5762	7792558703135131	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-install	61e0f870dd5e12ca
+5652	5762	7792558703135131	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-install	61e0f870dd5e12ca
+5762	5890	7792558704400865	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-test	22bba2dbcdd42981
+5762	5890	7792558704400865	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-test	22bba2dbcdd42981
+5890	6070	7792558706224535	CMakeFiles/stb_github-populate-complete	957e3e2050cb7a3f
+5890	6070	7792558706224535	stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-done	957e3e2050cb7a3f
+5890	6070	7792558706224535	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/CMakeFiles/stb_github-populate-complete	957e3e2050cb7a3f
+5890	6070	7792558706224535	C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/stb_github-subbuild/stb_github-populate-prefix/src/stb_github-populate-stamp/stb_github-populate-done	957e3e2050cb7a3f
