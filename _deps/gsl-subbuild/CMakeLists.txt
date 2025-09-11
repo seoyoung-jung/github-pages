@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file LICENSE.rst or https://cmake.org/licensing for details.
+# file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 4.0.0)
+cmake_minimum_required(VERSION 3.28.3)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -20,8 +20,8 @@ project(gsl-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(gsl-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/microsoft/GSL/archive/refs/tags/v4.2.0.tar.gz" "URL_HASH" "MD5=5f3d2f7ef9c6351503c0c8f1f9390144"
-                    SOURCE_DIR          "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-src"
-                    BINARY_DIR          "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-build"
+                    SOURCE_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src"
+                    BINARY_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

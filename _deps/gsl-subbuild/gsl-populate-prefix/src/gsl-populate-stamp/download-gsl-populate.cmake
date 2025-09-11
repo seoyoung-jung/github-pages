@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file LICENSE.rst or https://cmake.org/licensing for details.
+# file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
+cmake_minimum_required(VERSION 3.5)
 
 function(check_file_hash has_hash hash_is_good)
   if("${has_hash}" STREQUAL "")
@@ -21,15 +21,15 @@ function(check_file_hash has_hash hash_is_good)
 
   set("${has_hash}" TRUE PARENT_SCOPE)
 
-  message(VERBOSE "verifying file...
-       file='C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'")
+  message(STATUS "verifying file...
+       file='/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'")
 
-  file("MD5" "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz" actual_value)
+  file("MD5" "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "5f3d2f7ef9c6351503c0c8f1f9390144")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
-    message(VERBOSE "MD5 hash of
-    C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz
+    message(STATUS "MD5 hash of
+    /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz
   does not match expected value
     expected: '5f3d2f7ef9c6351503c0c8f1f9390144'
       actual: '${actual_value}'")
@@ -44,7 +44,7 @@ function(sleep_before_download attempt)
   endif()
 
   if(attempt EQUAL 1)
-    message(VERBOSE "Retrying...")
+    message(STATUS "Retrying...")
     return()
   endif()
 
@@ -66,52 +66,59 @@ function(sleep_before_download attempt)
     set(sleep_seconds 1200)
   endif()
 
-  message(VERBOSE "Retry after ${sleep_seconds} seconds (attempt #${attempt}) ...")
+  message(STATUS "Retry after ${sleep_seconds} seconds (attempt #${attempt}) ...")
 
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
+if("/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz" STREQUAL "")
+  message(FATAL_ERROR "LOCAL can't be empty")
+endif()
+
+if("https://github.com/microsoft/GSL/archive/refs/tags/v4.2.0.tar.gz" STREQUAL "")
+  message(FATAL_ERROR "REMOTE can't be empty")
+endif()
+
+if(EXISTS "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
-      message(VERBOSE "File already exists and hash match (skip download):
-  file='C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
+      message(STATUS "File already exists and hash match (skip download):
+  file='/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
   MD5='5f3d2f7ef9c6351503c0c8f1f9390144'"
       )
       return()
     else()
-      message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
+      message(STATUS "File already exists but hash mismatch. Removing...")
+      file(REMOVE "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
     endif()
   else()
-    message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
+    message(STATUS "File already exists but no hash specified (use URL_HASH):
+  file='/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
+    file(REMOVE "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
-message(VERBOSE "Downloading...
-   dst='C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
+message(STATUS "Downloading...
+   dst='/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
-set(download_retry_codes 7 6 8 15 28 35)
+set(download_retry_codes 7 6 8 15 28)
 set(skip_url_list)
 set(status_code)
 foreach(i RANGE ${retry_number})
   if(status_code IN_LIST download_retry_codes)
     sleep_before_download(${i})
   endif()
-  foreach(url IN ITEMS [====[https://github.com/microsoft/GSL/archive/refs/tags/v4.2.0.tar.gz]====])
+  foreach(url https://github.com/microsoft/GSL/archive/refs/tags/v4.2.0.tar.gz)
     if(NOT url IN_LIST skip_url_list)
-      message(VERBOSE "Using src='${url}'")
+      message(STATUS "Using src='${url}'")
 
-      
       
       
       
@@ -119,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz"
+        "${url}" "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -135,10 +142,10 @@ foreach(i RANGE ${retry_number})
       if(status_code EQUAL 0)
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
-          message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "C:/Users/jane3/Desktop/github/hw-1-opengl-sdl2-window-and-input-seoyoung-jung/cs200-hw1/build/web-debug-on-windows/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
+          message(STATUS "Hash mismatch, removing...")
+          file(REMOVE "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz")
         else()
-          message(VERBOSE "Downloading... done")
+          message(STATUS "Downloading... done")
           return()
         endif()
       else()
