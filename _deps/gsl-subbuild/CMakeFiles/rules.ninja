@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild -B/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild
+  command = /usr/bin/cmake --regenerate-during-build -S/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-subbuild -B/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-subbuild
   description = Re-running CMake...
   generator = 1
 

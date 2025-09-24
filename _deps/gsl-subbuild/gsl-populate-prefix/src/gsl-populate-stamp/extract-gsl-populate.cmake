@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src" ABSOLUTE)
+get_filename_component(filename "/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-subbuild/gsl-populate-prefix/src/v4.2.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

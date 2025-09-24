@@ -20,8 +20,8 @@ project(gsl-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(gsl-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/microsoft/GSL/archive/refs/tags/v4.2.0.tar.gz" "URL_HASH" "MD5=5f3d2f7ef9c6351503c0c8f1f9390144"
-                    SOURCE_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src"
-                    BINARY_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-build"
+                    SOURCE_DIR          "/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src"
+                    BINARY_DIR          "/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

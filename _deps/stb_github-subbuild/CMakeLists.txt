@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(stb_github-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/nothings/stb.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "f58f558c120e9b32c217290b80bad1a0729fbb2c"
-                    SOURCE_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src"
-                    BINARY_DIR          "/home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-build"
+                    SOURCE_DIR          "/home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src"
+                    BINARY_DIR          "/home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

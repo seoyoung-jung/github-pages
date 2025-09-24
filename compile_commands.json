@@ -1,98 +1,158 @@
 [
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_draw.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_draw.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_draw.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_draw.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_draw.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_draw.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_draw.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_tables.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_tables.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_tables.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_tables.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_tables.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_tables.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_tables.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_widgets.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_widgets.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/imgui_widgets.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_widgets.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_widgets.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/imgui_widgets.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/imgui_widgets.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_opengl3.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -O3 -DNDEBUG -std=c++20 --use-port=sdl2 -o CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp",
   "output": "CMakeFiles/the_imgui.dir/_deps/dearimgui-src/backends/imgui_impl_sdl2.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -o CMakeFiles/the_stb.dir/stb_implementation.cpp.o -c /home/seoyoung/cs200-hw1/build/web-release/stb_implementation.cpp",
-  "file": "/home/seoyoung/cs200-hw1/build/web-release/stb_implementation.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -o CMakeFiles/the_stb.dir/stb_implementation.cpp.o -c /home/seoyoung/cs200/hw3/build/web-release/stb_implementation.cpp",
+  "file": "/home/seoyoung/cs200/hw3/build/web-release/stb_implementation.cpp",
   "output": "CMakeFiles/the_stb.dir/stb_implementation.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/CS200/ImGuiHelper.cpp.o -c /home/seoyoung/cs200-hw1/source/CS200/ImGuiHelper.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/CS200/ImGuiHelper.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/CS200/ImGuiHelper.cpp.o -c /home/seoyoung/cs200/hw3/source/CS200/ImGuiHelper.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/CS200/ImGuiHelper.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/CS200/ImGuiHelper.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/CS200/RenderingAPI.cpp.o -c /home/seoyoung/cs200-hw1/source/CS200/RenderingAPI.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/CS200/RenderingAPI.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/CS200/Renderer2DUtils.cpp.o -c /home/seoyoung/cs200/hw3/source/CS200/Renderer2DUtils.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/CS200/Renderer2DUtils.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/CS200/Renderer2DUtils.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/CS200/RenderingAPI.cpp.o -c /home/seoyoung/cs200/hw3/source/CS200/RenderingAPI.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/CS200/RenderingAPI.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/CS200/RenderingAPI.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Engine.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Engine.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Engine.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Demo/DemoBufferTypes.cpp.o -c /home/seoyoung/cs200/hw3/source/Demo/DemoBufferTypes.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Demo/DemoBufferTypes.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/Demo/DemoBufferTypes.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Demo/DemoMyModel.cpp.o -c /home/seoyoung/cs200/hw3/source/Demo/DemoMyModel.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Demo/DemoMyModel.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/Demo/DemoMyModel.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Engine.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Engine.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Engine.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Engine.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Input.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Input.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Input.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/GameStateManager.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/GameStateManager.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/GameStateManager.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/Engine/GameStateManager.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Input.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Input.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Input.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Input.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Logger.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Logger.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Logger.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Logger.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Logger.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Logger.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Logger.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Path.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Path.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Path.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Matrix.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Matrix.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Matrix.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/Engine/Matrix.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Path.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Path.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Path.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Path.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Vec2.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Vec2.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Vec2.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Random.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Random.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Random.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/Engine/Random.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Vec2.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Vec2.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Vec2.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Vec2.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Window.cpp.o -c /home/seoyoung/cs200-hw1/source/Engine/Window.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/Engine/Window.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/Engine/Window.cpp.o -c /home/seoyoung/cs200/hw3/source/Engine/Window.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/Engine/Window.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/Engine/Window.cpp.o"
 },
 {
-  "directory": "/home/seoyoung/cs200-hw1/build/web-release",
-  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200-hw1/source/. -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/stb_github-src -isystem /home/seoyoung/cs200-hw1/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/emsdk/upstream/emscripten/cache/sysroot/include/AL -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/main.cpp.o -c /home/seoyoung/cs200-hw1/source/main.cpp",
-  "file": "/home/seoyoung/cs200-hw1/source/main.cpp",
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/OpenGL/Buffer.cpp.o -c /home/seoyoung/cs200/hw3/source/OpenGL/Buffer.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/OpenGL/Buffer.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/OpenGL/Buffer.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/OpenGL/GL.cpp.o -c /home/seoyoung/cs200/hw3/source/OpenGL/GL.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/OpenGL/GL.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/OpenGL/GL.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/OpenGL/Shader.cpp.o -c /home/seoyoung/cs200/hw3/source/OpenGL/Shader.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/OpenGL/Shader.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/OpenGL/Shader.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/OpenGL/VertexArray.cpp.o -c /home/seoyoung/cs200/hw3/source/OpenGL/VertexArray.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/OpenGL/VertexArray.cpp",
+  "output": "source/CMakeFiles/cs200_fun.dir/OpenGL/VertexArray.cpp.o"
+},
+{
+  "directory": "/home/seoyoung/cs200/hw3/build/web-release",
+  "command": "/home/seoyoung/emsdk/upstream/emscripten/em++ -DIS_WEBGL2 -I/home/seoyoung/cs200/hw3/source/. -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/dearimgui-src/backends -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src/include -isystem /home/seoyoung/cs200/hw3/build/web-release/_deps/stb_github-src -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror --use-port=sdl2 -o source/CMakeFiles/cs200_fun.dir/main.cpp.o -c /home/seoyoung/cs200/hw3/source/main.cpp",
+  "file": "/home/seoyoung/cs200/hw3/source/main.cpp",
   "output": "source/CMakeFiles/cs200_fun.dir/main.cpp.o"
 }
 ]
