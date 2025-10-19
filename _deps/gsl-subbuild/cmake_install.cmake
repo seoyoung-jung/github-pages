@@ -1,4 +1,4 @@
-# Install script for directory: /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-subbuild
+# Install script for directory: /home/seoyoung/cs200/hw5/build/web-release/_deps/gsl-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/seoyoung/cs200/hw5/build/web-release/_deps/gsl-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

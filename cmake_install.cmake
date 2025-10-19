@@ -1,8 +1,8 @@
-# Install script for directory: /home/seoyoung/cs200/hw3
+# Install script for directory: /home/seoyoung/cs200/hw5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/seoyoung/cs200/hw3/build/install/web-release")
+  set(CMAKE_INSTALL_PREFIX "/home/seoyoung/cs200/hw5/build/install/web-release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-build/cmake_install.cmake")
+  include("/home/seoyoung/cs200/hw5/build/web-release/_deps/gsl-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seoyoung/cs200/hw3/build/web-release/source/cmake_install.cmake")
+  include("/home/seoyoung/cs200/hw5/build/web-release/source/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/seoyoung/cs200/hw3/build/web-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/seoyoung/cs200/hw5/build/web-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-src
+# Install script for directory: /home/seoyoung/cs200/hw5/build/web-release/_deps/gsl-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/seoyoung/cs200/hw3/build/install/web-release")
+  set(CMAKE_INSTALL_PREFIX "/home/seoyoung/cs200/hw5/build/install/web-release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/seoyoung/cs200/hw3/build/web-release/_deps/gsl-build/include/cmake_install.cmake")
+  include("/home/seoyoung/cs200/hw5/build/web-release/_deps/gsl-build/include/cmake_install.cmake")
 endif()
 
